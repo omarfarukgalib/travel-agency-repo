@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../images/navbar_logo.png'
+
 const Footer = () => {
     return (
         <footer className="h-52 footer footer-center py-10 bg-primary text-primary-content">
