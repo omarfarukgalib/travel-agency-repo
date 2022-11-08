@@ -1,5 +1,6 @@
 import Home from "../Home/Home";
 import Main from "../Main/Main";
+import Services from "../Services/Services";
 
 const { createBrowserRouter } = require("react-router-dom");
 
@@ -10,8 +11,15 @@ export const router = createBrowserRouter([
         children:[
             {
                 path:'/',
+            
                 element:<Home></Home>
-            }
+            },
+            {
+                path:'/services',
+                loader:()=>fetch('http://localhost:5000/services'),
+                element:<Services></Services>
+            },
+           
         ]
     }
 ])
