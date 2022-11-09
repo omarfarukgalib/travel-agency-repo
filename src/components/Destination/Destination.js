@@ -22,7 +22,7 @@ const Destination = () => {
     <h2 className="card-title">Trip Title</h2>
     <p className='text-justify'>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
     <div className="card-actions justify-start">
-      <button className="btn btn-primary">View Trip</button>
+      <Link to="/destination2"><button className="btn btn-primary">View Trip</button></Link>
     </div>
   </div>
 </div>
@@ -32,7 +32,7 @@ const Destination = () => {
     <h2 className="card-title">Trip Title</h2>
     <p className='text-justify'>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
     <div className="card-actions justify-start">
-      <button className="btn btn-primary">View Trip</button>
+      <Link to="/destination3"><button className="btn btn-primary">View Trip</button></Link>
     </div>
   </div>
 </div>
