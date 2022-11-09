@@ -7,8 +7,8 @@ import img4 from '../../images/team_member4.jpg'
 const TeamMember = () => {
     return (
         <div>
-            
-  <div className="w-[600px] mx-auto border-2 hero-content flex-col lg:flex-row">
+            <p className='mt-10 text-3xl font-semibold'>Our Team Member Description</p>
+  <div className="mt-10 w-[600px] mx-auto border-2 hero-content flex-col lg:flex-row">
     <img className="w-32" src={img1} alt="" />
     <div>
       <h1 className="text-2xl pt-2 text-primary font-bold text-start ">Title</h1>

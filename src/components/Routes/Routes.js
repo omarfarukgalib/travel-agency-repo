@@ -1,3 +1,5 @@
+import Destination from "../Destination/Destination";
+import Destination1 from "../Destination1/Destination1";
 import Home from "../Home/Home";
 import Main from "../Main/Main";
 import Services from "../Services/Services";
@@ -23,6 +25,14 @@ export const router = createBrowserRouter([
            {
             path:'/team',
             element:<TeamMember></TeamMember>
+           },
+           {
+            path:'/destination',
+            element:<Destination></Destination>
+           },
+           {
+            path:'/destination1',
+            element:<Destination1></Destination1>
            }
         ]
     }
